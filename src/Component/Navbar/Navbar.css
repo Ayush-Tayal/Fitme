@@ -36,3 +36,16 @@
 #quote h3 {
     padding-left: 20px;
 }
+
+@media screen and (max-width:768px) {
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    #input-bar {
+        margin-bottom: 10px;
+    }
+
+}

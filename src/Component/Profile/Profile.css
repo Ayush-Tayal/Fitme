@@ -1,5 +1,5 @@
 #profile{
-    padding-top: 5vh;
+    padding-top: 50px;
     width: 20%;
     background-color: rgb(223, 223, 223);
     height: 100vh;
@@ -15,3 +15,13 @@
     padding: 10px;
 }
 
+@media screen and (max-width:768px) {
+    #profile {
+        width: 100%;
+        background-color: white;
+        margin-bottom: 50px;
+        height: auto;
+        padding-bottom: 50px;
+        border-bottom: 1px solid grey;
+    }
+}

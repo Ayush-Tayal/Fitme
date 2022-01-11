@@ -13,7 +13,7 @@ const VideoComp = () => {
 
     return (
         <>
-            <div id='home-com'>
+            <div>
                 <h1 id='heading'> Your Personal Fitness Guide </h1>
             </div>
             
@@ -22,7 +22,7 @@ const VideoComp = () => {
                 {
                     videoData.map((v, i)=> {   
                         return (<div id='single-video' key={i}>
-                            <ReactPlayer url={v.url} width='640px' /> 
+                            <ReactPlayer url={v.url} width='100%'/> 
                             <h3> {v.description}</h3>
                             <h3> Likes : {v.likes}</h3>
                             <h3> Channel:{v.channel}</h3>
@@ -32,6 +32,7 @@ const VideoComp = () => {
                 </Draggable>
                 
             </div>
+
         </>
     )
 }
