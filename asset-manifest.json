@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Fitme/static/css/main.9ada7e07.css",
-    "main.js": "/Fitme/static/js/main.87aeefb4.js",
+    "main.css": "/Fitme/static/css/main.e66eb12b.css",
+    "main.js": "/Fitme/static/js/main.cc0713ec.js",
     "static/js/787.997595d8.chunk.js": "/Fitme/static/js/787.997595d8.chunk.js",
     "index.html": "/Fitme/index.html",
-    "main.9ada7e07.css.map": "/Fitme/static/css/main.9ada7e07.css.map",
-    "main.87aeefb4.js.map": "/Fitme/static/js/main.87aeefb4.js.map",
+    "main.e66eb12b.css.map": "/Fitme/static/css/main.e66eb12b.css.map",
+    "main.cc0713ec.js.map": "/Fitme/static/js/main.cc0713ec.js.map",
     "787.997595d8.chunk.js.map": "/Fitme/static/js/787.997595d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ada7e07.css",
-    "static/js/main.87aeefb4.js"
+    "static/css/main.e66eb12b.css",
+    "static/js/main.cc0713ec.js"
   ]
 }
