@@ -5,14 +5,14 @@ import ReactPlayer from 'react-player'
 import { Draggable } from "react-drag-reorder";
 
 const VideoComp = () => {
-    console.log(videoData);
+    // console.log(videoData);
 
     const getChangedPos = (currentPos, newPos) => {
         // console.log(currentPos, newPos);
     };
 
     return (
-        <>
+        <div id='video-comp'>
             <div>
                 <h1 id='heading'> Your Personal Fitness Guide </h1>
             </div>
@@ -33,7 +33,7 @@ const VideoComp = () => {
                 
             </div>
 
-        </>
+        </div>
     )
 }
 

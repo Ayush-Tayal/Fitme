@@ -3,7 +3,6 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: whitesmoke;
-    height: 6vh;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -46,6 +45,8 @@
 
     #input-bar {
         margin-bottom: 10px;
+        display: none;
     }
+
 
 }

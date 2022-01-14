@@ -1,3 +1,8 @@
+#video-comp {
+    margin-left: auto;
+    width: 75%;
+}
+
 #heading {
     margin-top: 0px;
     margin-bottom: 20px;
@@ -21,6 +26,10 @@
 }
   
 @media screen and (max-width:768px) {
+    #video-comp {
+        width: auto;
+    }
+
     #video-div {
         display: flex;
         flex-direction: column;
